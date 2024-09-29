@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div id="name_TL">
+            <h1>Alexandre.</h1>
+        </div>
+        <nav>
+            <div><a href="#Contact" class="a_nav">Contact</a></div>
+            <div><a href="#Education" class="a_nav">Education</a></div>
+            <div><a href="#Skills" class="a_nav">Skills</a></div>
+            <div><a href="#Soft_Skills" class="a_nav">Soft Skills</a></div>
+            <div><a href="#Hobbies" class="a_nav">Hobbies</a></div>
+        </nav>
+    </header>
+    <section id="presentation">
+        <img src="assets/ma_photo.jpg" id="pp">
+        <h1 id="name_Mid">Hi, I'm Alexandre Hein</h1>
+        <p id="pres_Mid">Hello! I am Alexandre, a 20 year-old passionate IT student with a strong desire to learn and grow. I am always striving to change for the best in any domain and enjoy exploring new possibilities. After my studies of the English world, its civilization, and its culture, I have decided to pursue a field I have always dreamed of being in, but always feared to commit myself to. Now, I am proud to say that I took the first steps, and I can confidently say that I am glad I did. I still have so much to learn, but I am up for any challenge coming my way! <br> As such, I am looking for a company willing to take in an apprentice for an IT post, one who will make mistakes, but one who will always bounce back and improve.</p>
+    </section>
+    <section id="school">
+        <h2 id="studies">About my current studies</h2>
+        <a href="https://www.epitech.eu/" target="_blank"><img src="assets/epitech.png" alt="Epitech logo" id="epi_img"></a>
+        <p id="description_studies">I am currently enrolled in a three-year program at Epitech, one of the leading IT school in France aiming for its students to become experts. Located in Strasbourg, Epitech at its core values, encourages its students to think outside the box, and always to  seek to go far and beyond in what they accomplish. The curriculum is designed to prepare us for the real-wolrd challenges, making sure that we become experts in IT, but also adaptive and creative experts able to work in teams and to communicate with efficiency.</p>
+    </section>
+    <main>
+        <section class="main" id="Contact">
+            <h2>Contact</h2>
+            <p>Email Address: <a href="mailto:alexandrehein1@gmail.com">alexandrehein1@gmail.com</a></p>
+            <p>Phone Number: <a href="tel:+33624741895">06 24 74 18 95</a></p>
+            <p>Address: France, Strasbourg, 67100, <a href="https://www.google.com/maps/place/21+Rue+du+Ballon/@48.5718704,7.7617662,17.18z/data=!4m7!3m6!1s0x4796c9043e447c5d:0xdda8032372858156!4b1!8m2!3d48.5717197!4d7.7638897!16s%2Fg%2F11b8vd18ck?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D">21 Rue du Ballon</a></p>
+        </section>
+        <section class="main" id="Education">
+            <h2>Education</h2>
+            <p><b>Pre-MSc - Epitech - Strasbourg: 2024-Present</b></p>
+            <p>License LLCER English, with honors - UHA - Mulhouse: 2021-2024</p>
+            <p>General Bacalaureate, with honors - Blaise Pascal - Colmar: 2018-2021</p>
+        </section>
+        <section class="main" id="Skills">
+            <h2>Skills</h2>
+            <p>Programming: Basics of Python and HTML/CSS</p>
+            <p>Tools: Visual Studio Code, Pygame, Phaser</p>
+            <p>Languages: Native French speaker, Good command of English</p>
+        </section>
+        <section class="main" id="Soft_Skills">
+            <h2>Soft Skills</h2>
+            <p>Rigor</p>
+            <p>Adaptability</p>
+            <p>Problem-solving</p>
+            <p>Collaboration</p>
+        </section>
+        <section class="main" id="Projects">
+            <h2>Projects</h2>
+            <h3>Hangman Game</h3>
+            <p>Developed in HTML using the external library "Pygame"</p>
+            <h3>Creating an Online Resume</h3>
+            <p>Site developed exclusively using HTML and CSS</p>
+            <h3>Development of a small "platformer" game in my free time</h3>
+            <p></p>
+        </section>
+        <section class="main" id="Hobbies">
+            <h2>Hobbies</h2>
+            <p>Video games (with a burning passion)</p>
+            <p>Digital illustrations (beginner)</p>
+            <p></p>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h1 id="contact">Contact me!</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div id="contact_div">
+                    <input type="hidden" name="access_key" value="96feace7-c4cf-4c32-a072-cf24347156ba">
+                    <input type="text" placeholder="Name" class="msg" required><br>
+                    <input type="text" placeholder="Last Name" class="msg" required><br>
+                    <input type="text" placeholder="Phone Number" class="msg"><br>
+                    <input type="text" placeholder="Email Address" class="msg" required><br>
+                    <textarea name="message" id="message" placeholder="Your Message" class="msg" required></textarea><br>
+                    <input type="submit" value="Send" id="send">
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
